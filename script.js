@@ -10,11 +10,26 @@
 // }
 // console.log(pricePerSqFT ** sqEdge);
 
+// Hands On Project 2
 
-let day = "26, ";
-let month = "December ";
-let year = "2017";
+// let day = "26, ";
+// let month = "December ";
+// let year = "2017";
 
-let myBirthday = month + day + year;
+// let myBirthday = month + day + year;
 
-console.log(myBirthday)
+// console.log(myBirthday)
+
+// Hands On Project 3
+
+let age = 15;
+
+if(age < 10) {
+    console.log("Not permitted");
+} else if (age < 15) {
+    console.log("Permitted with parent");
+} else if (age < 18) {
+    console.log("Permitted with anyone over 18")
+} else {
+    console.log("Permitted to attend alone");
+}
